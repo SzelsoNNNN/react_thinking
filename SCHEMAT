@@ -1,0 +1,6 @@
+Input na górze to wiadomo
+3 kwadraciki pod inputem w "top_ad_container" i osobno w "top_ad_square"
+Rok i miesiące w dwa osobne kontenery "filter_buttons_container" i każdy z nich w "filter_buttons_area"
+Wszystkie książki w "books_container" i każdy kafelek w "books_square" i podział na 3 sekcje "book_area"
+
+

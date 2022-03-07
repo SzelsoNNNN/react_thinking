@@ -1,0 +1,54 @@
+.home_header {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .header_topFilter {
+        width: 75%;
+        display: grid;
+        place-items: center;
+    }
+    .top_ad_container {
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .top_ad_box {
+            height: 20vh;
+            img {
+                height: 100%;
+            }
+        }
+    }
+    .top_filter_buttons {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1%;
+        .top_filter_buttons_years {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 1%;
+            >button {
+                margin-right: 1%;
+                &.last-child {
+                    margin: none;
+                }
+            }
+        }
+        .top_filter_buttons_months {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1%;
+        }
+    }
+}
