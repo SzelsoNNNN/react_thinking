@@ -1,16 +1,25 @@
-import React, { Component } from 'react'
-import Header from './../../Components/Header/Header'
-import Main from './../../Components/Main/Main'
+import React, { useState } from 'react'
+import Header from './Components/Header/Header'
+import Main from './Components/Main/Main'
+import FilterContext from './filters'
 
-class Home extends Component {
-    render() {
-        return (
-            <div className="home_page">
+const filtersBasic = {
+    filterText: '',
+    filterMonth: 0,
+    filterYear: 0,
+    showNewOnly: false
+}
+
+const Home = () => {
+    const [filters, setFilters] = useState(filtersBasic)
+    return (
+        <div className="home_page">
+            <FilterContext.Provider value={[filters, setFilters]}>
                 <Header />
                 <Main />
-            </div>
-        )
-    }
+            </FilterContext.Provider>
+        </div>
+    )
 }
 
 export default Home
