@@ -7,7 +7,7 @@ Drzewko projektu:
     Pages
         Home
             static.js - wersja statyczna
-            index.js - określenie stanu początkowego i przekazanie go dzieciom
+            index.js - określenie stanu początkowego i przekazanie go dzieciom (plik wszystkich plików)
             filters.js - utworzenie kontekstu
             Components
                 Header
@@ -26,6 +26,6 @@ Drzewko projektu:
 Wersja statyczna: 
     ./Pages/Home/static.js
 
-Stan początkowy:
-    ./Pages/Home/index.js i jest przekazywany Providerem do dzieci
+Stan początkowy i jego zmiany:
+    ./Pages/Home/index.js stan początkowy się znajduje tutaj i jest przekazywany Providerem do dzieci
     ./Pages/Home/Components/Header/MonthButtons.js - zmieniany jest stan filterMonth
