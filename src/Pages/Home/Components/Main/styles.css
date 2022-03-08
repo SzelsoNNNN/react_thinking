@@ -17,8 +17,10 @@
 }
 
 .home_main .filters_container {
-  width: 140%;
-  padding: 3%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 15vw;
+  padding: 20%;
   background: #9C27B0;
   border-radius: 5px;
   color: white;
@@ -39,10 +41,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 1%;
 }
+/*# sourceMappingURL=styles.css.map */
