@@ -6,7 +6,7 @@ import './styles.css'
 const Home = () => {
     return(
         <div className="home_main">
-            <LeftContainer currentMonth={2} currentYear={2022} currentInput={'asdasd'}/>
+            <LeftContainer/>
             <RightContainer />
         </div>
     )

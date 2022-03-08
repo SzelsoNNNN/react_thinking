@@ -1,21 +1,10 @@
 import React, { Component } from 'react'
 import Home from './Pages/Home/index'
 
-class App extends Component{
-  constructor(props) {
-    super(props)
-    this.state = {
-      filterText: '',
-      filterMonth: 0,
-      filterYear: 0,
-      showNewOnly: false
-    }
-  }
-  render() {
+const App = () => {
     return(
       <Home />
     )
-  }
 }
 
 export default App

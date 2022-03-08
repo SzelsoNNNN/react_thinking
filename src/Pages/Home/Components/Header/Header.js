@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import HeaderTopFilter from './HeaderTopFilter'
 import Advertisement from './Advertisement.js'
 import TopFilter from './TopFilter.js'
 import states from './../states'
