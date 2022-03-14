@@ -29,3 +29,5 @@ Wersja statyczna:
 Stan początkowy i jego zmiany:
     ./Pages/Home/index.js stan początkowy się znajduje tutaj i jest przekazywany Providerem do dzieci
     ./Pages/Home/Components/Header/MonthButtons.js - zmieniany jest stan filterMonth
+    ./Pages/Home/Components/Header/YearButtons.js - zmieniany jest stan filterYear
+    ./Pages/Home/Components/Header/HeaderTopFilter.js - zmieniany jest stan filterText
