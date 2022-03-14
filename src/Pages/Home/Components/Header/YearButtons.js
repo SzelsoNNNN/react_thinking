@@ -26,8 +26,10 @@ const YearButtons = () => {
     }
     return(
         <div className="top_filter_buttons_years">
-            <Button variant="contained" onClick={() => setCurrentYear(12)} id={12} color="secondary">2022</Button>
-            <Button variant="outlined" onClick={() => setCurrentYear(13)} id={13} color="secondary">2021</Button>
+            <Button variant="contained" onClick={() => setCurrentYear(2022)} id={2022} color="secondary">2022</Button>
+            <Button variant="outlined" onClick={() => setCurrentYear(2021)} id={2021} color="secondary">2021</Button>
+            <Button variant="outlined" onClick={() => setCurrentYear(-1)} id={-1} color="secondary">Sortuj po miesiącach</Button>
+            <Button variant="outlined" onClick={() => setCurrentYear(-2)} id={-2} color="secondary">Pokaż wszystkie</Button>
         </div>
     )
 }

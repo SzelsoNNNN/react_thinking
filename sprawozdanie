@@ -1,0 +1,31 @@
+3 kwadraciki pod inputem w "top_ad_container" i osobno w "top_ad_square"
+Miesiące w kontenerze "filter_buttons_container" i każdy z nich w "filter_buttons_area"
+Wszystkie książki w "books_container" i każdy kafelek w "books_square" i podział na 3 sekcje "book_area"
+Filtry w lewej części maina jako main_leftContainer
+
+Drzewko projektu:
+    Pages
+        Home
+            static.js - wersja statyczna
+            index.js - określenie stanu początkowego i przekazanie go dzieciom (plik wszystkich plików)
+            filters.js - utworzenie kontekstu
+            Components
+                Header
+                    Ads.json - "baza" od reklam
+                    Advertisement.js - ładowanie reklam i z pomocą .map wyświetlanie na stronie
+                    Header.js
+                    MonthButtons.js - wyświetlanie buttonów i onClick zmiana stanu
+                    TopFilter.js - łącznik guzików
+                Main
+                    LeftContainer.js - filtry
+                    Main.js - łącznik kontenerów
+                    RightContainer.js - główna zawartość strony
+    App.js
+    index.js
+
+Wersja statyczna: 
+    ./Pages/Home/static.js
+
+Stan początkowy i jego zmiany:
+    ./Pages/Home/index.js stan początkowy się znajduje tutaj i jest przekazywany Providerem do dzieci
+    ./Pages/Home/Components/Header/MonthButtons.js - zmieniany jest stan filterMonth

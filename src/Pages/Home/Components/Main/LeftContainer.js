@@ -8,8 +8,9 @@ const LeftContainer = () => {
         return(
             <div className="main_leftContainer">
                 <div className="filters_container">
-                    <div className="filters_top_name">Filtry</div>
-                    <div className="filters_current_month">Obecny miesiąc: {filters.filterMonth + 1}</div>
+                    <div className="filters_current_year">Obecny rok: {filters.filterYear}</div>
+                    <div className="filters_current_year">Obecny miesiąc: {filters.filterMonth + 1}</div>
+                    <div className="filters_current_text">Filtrowanie tekstem: {filters.filterText.charAt(0).toUpperCase() + filters.filterText.slice(1)}</div>
                 </div>
             </div>
         )

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import HeaderTopFilter from './HeaderTopFilter'
 import Advertisement from './Advertisement.js'
 import TopFilter from './TopFilter.js'
+import HeaderTopFilter from './HeaderTopFilter.js'
 import states from './../states'
 import './styles.css'
 
@@ -13,6 +13,7 @@ export default class Home extends Component {
     render() {
         return(
             <div className="home_header">
+                <HeaderTopFilter />
                 <Advertisement />
                 <TopFilter />
             </div>

@@ -4,10 +4,9 @@ import Main from './Components/Main/Main'
 import FilterContext from './filters'
 
 const filtersBasic = {
-    filterText: '',
     filterMonth: 0,
-    filterYear: 0,
-    showNewOnly: false
+    filterYear: -2,
+    filterText: ''
 }
 
 const Home = () => {
